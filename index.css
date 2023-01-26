@@ -1,0 +1,93 @@
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+	border-radius: 0px;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.navbar-brand{
+  font-size: 35px;
+  color: rgb(77, 255, 0);
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid rgba(255, 255, 255, 0.61);
+	margin-right: 30px;
+}
+
+.icon-bar{
+	background-color: rgb(255 255 255 / 40%);
+}
+
+
+.main-title{
+  margin-bottom: 15px;
+  text-align: center;
+  color: #274d6e;
+  font-size : 50px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight : bold;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.693);
+	border-bottom: 1px solid rgb(97, 42, 170);
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgb(177 70 106 / 56%);
+	color: rgba(175, 245, 218, 0.925);
+}
+
+
+.row{
+	margin: 20px;
+	background-color: rgb(154 191 153 / 29%);
+}
+
+.content-box{
+	margin: 20px;
+	width: auto;
+	height: auto;
+	color: #2b1d1d;
+	background-color: rgb(170 204 225 / 84%);
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding: 40px;
+}
+
+.item-name{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
